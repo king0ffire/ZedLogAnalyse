@@ -12,3 +12,7 @@ class TextMode(Enum):
     FROMFILE = 1
     DIFF = 2
     FROMUSER = 3
+
+class AnalyzerType(Enum):
+    Analyze=1
+    DisplayOnly=2
