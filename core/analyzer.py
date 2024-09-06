@@ -81,7 +81,7 @@ class Analyzer():
                     logger.debug(f"current member:{member.name}")
                     if fnmatch.fnmatch(member.name, task[0]):
                         currentdict[os.path.basename(member.name)]={}
-                        if member.name.endswith(".gz"):
+                        if member.name.endswith("gz"):
                             inner_tarfileinfo=tarfile.open(fileobj=currenttarfileinfo.extractfile(member),mode='r:gz')
                         elif member.name.endswith("bz2"):
                             inner_tarfileinfo=tarfile.open(fileobj=currenttarfileinfo.extractfile(member),mode='r:bz2')

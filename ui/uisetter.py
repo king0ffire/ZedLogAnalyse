@@ -129,7 +129,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(
-            _translate("MainWindow", "ZedLog Analyzer  V0.2.0 (100 lines)")
+            _translate("MainWindow", "ZedLog Analyzer  V0.2.1 (100 lines)")
         )
         self.menu.setTitle(_translate("MainWindow", "文件"))
         self.actionImport.setText(_translate("MainWindow", "Import"))
